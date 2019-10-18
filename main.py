@@ -30,3 +30,12 @@ def hitung_volume(massajenis, massa):
 # massajenis = 5
 # massa = 20
 volume = hitung_volume(5,20)
+
+def hitung_kemesraan(cinta, kesetiaan):
+    kemesraan = cinta / kesetiaan
+    print(f'cinta = {cinta / 100}% diperoleh dari kesetiaan = {kesetiaan / 100}%')
+    print(f'sehingga kemesraan = {kemesraan} cocok')
+# cinta = 100
+# kesetiaan = 100
+kemesraan = hitung_kemesraan(80,20)
+kemesraan = hitung_kemesraan(20,90)
